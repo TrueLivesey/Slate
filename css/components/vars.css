@@ -1,0 +1,36 @@
+:root {
+  /* Colors */
+  --color-primary: #4452FE;
+  --color-primary-lighter: #6b77fc;
+  --color-primary-darker: #2737ec;
+  --color-secondary: #02E4C0;
+  --color-secondary-blue: #112D57;
+  --color-first-text: #000;
+  --color-second-text: #5C5C5C;
+  --color-light-text: #fff;
+  --color-light-bg: #fff;
+  --color-light-border: #DEDEDE;
+  --color-dark-bg: #181818;
+
+  /* Gaps */
+  --section-gap: 6.25rem;               /*  100px  */
+  --section-padding: 3.875rem;          /*  68px   */
+  --title-gap: 3.75rem;                 /*  60px   */
+  --section-padding-bottom: 3.75rem;    /*  60px   */
+  --section-padding: 3.125rem;          /*  50px   */
+  --gap: 2.0625rem;                     /*  33px   */
+  --subtitle-gap: 1.25rem;              /*  20px   */
+
+  /* Border */
+  --border-radius: 0.625rem;
+
+  /* Transition */
+  --transition: .2s ease-in-out;
+
+  /* Media sizes */
+  --media-xs: 320px;
+  --media-sm: 480px;
+  --media-md: 576px;
+  --media-lg: 768px;
+  --media-xl: 1024px;
+}

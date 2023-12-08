@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Graphik';
+  src: local('Graphik Regular'),
+      url('../../fonts/graphik-regular.woff2') format('woff2'),
+      url('../../fonts/graphik-regular.woff') format('woff');
+  font-display: fallback;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Graphik';
+  src: local('Graphik Medium'),
+      url('../../fonts/graphik-medium.woff2') format('woff2'),
+      url('../../fonts/graphik-medium.woff') format('woff');
+  font-display: fallback;
+  font-weight: 500;
+}
