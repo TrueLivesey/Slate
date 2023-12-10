@@ -18,6 +18,7 @@ html {
 }
 
 body {
+  min-width: 320px;
   font-family: 'Graphik', sans-serif;
   font-size: 16px;
   line-height: normal;
@@ -122,6 +123,10 @@ p {
 
 .btn-default:active {
   background-color: var(--color-primary-darker);
+}
+
+.svg-hidden {
+  position: absolute;
 }
 
 .is-hidden {
@@ -525,6 +530,7 @@ p {
 }
 
 .gallery__content {
+  position: relative;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr var(--gap) 1fr;
@@ -560,14 +566,30 @@ p {
 }
 
 .gallery__img {
+  position: relative;
   height: revert-layer;
+  z-index: 1;
   border-radius: 0.75rem;
+  will-change: transform;
+  transform-origin: center center;
+  transition: transform var(--transition);
 }
 
 .gallery__btn {
   padding-left: 2.4375rem;
   padding-right: 2.4375rem;
   margin: 0 auto;
+}
+
+.gallery__shadow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-dark-bg);
+  pointer-events: none;
+  opacity: 0;
 }
 
 /* --------PARTNERS-------- */
@@ -621,6 +643,11 @@ p {
 
 .partners__icon {
   display: block;
+  fill: var(--color-light-bg);
+}
+
+.app-store:hover {
+  --color-app-store-1: red;
 }
 
 .partners__icon path {

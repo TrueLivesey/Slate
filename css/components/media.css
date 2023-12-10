@@ -2,117 +2,117 @@
 /* ---- Partners ----- */
 /* -----1----- */
   /* ---focus--- */
-  .partners__item:nth-child(1) .partners__link:focus-visible .partners__icon stop:nth-child(1) {
+  .partners__list:nth-child(1) .partners__item:nth-child(1) .partners__link:focus-visible .partners__icon stop:nth-child(1) {
     stop-color: var(--color-primary-lighter);
   }
 
-  .partners__item:nth-child(1) .partners__link:focus-visible .partners__icon stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(1) .partners__link:focus-visible .partners__icon stop:nth-child(2) {
     stop-color: var(--color-primary);
   }
   /* ----hover--- */
-  .partners__item:nth-child(1) .partners__link:hover .partners__icon stop:nth-child(1) {
+  .partners__list:nth-child(1) .partners__item:nth-child(1) .partners__link:hover .partners__icon stop:nth-child(1) {
     stop-color: var(--color-primary-lighter);
   }
 
-  .partners__item:nth-child(1) .partners__link:hover .partners__icon stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(1) .partners__link:hover .partners__icon stop:nth-child(2) {
     stop-color: var(--color-primary);
   }
 
   /* ---active--- */
-  .partners__item:nth-child(1) .partners__link:active .partners__icon stop:nth-child(1),
-  .partners__item:nth-child(1) .partners__link:active .partners__icon stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(1) .partners__link:active .partners__icon stop:nth-child(1),
+  .partners__list:nth-child(1) .partners__item:nth-child(1) .partners__link:active .partners__icon stop:nth-child(2) {
     stop-color: var(--color-primary-darker);
   }
 
 /* -----2----- */
   /* ---focus--- */
-  .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(1) stop:nth-child(1) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(1) stop:nth-child(1) {
     stop-color: var(--color-primary);
   }
   
-  .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(1) stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(1) stop:nth-child(2) {
     stop-color: var(--color-primary-lighter);
   }
   
-  .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(2) stop:nth-child(1) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(2) stop:nth-child(1) {
     stop-color: var(--color-primary);
   }
   
-  .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(2) stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(2) stop:nth-child(2) {
     stop-color: var(--color-primary-lighter);
   }
   
-  .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(3) stop:nth-child(1) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(3) stop:nth-child(1) {
     stop-color: var(--color-primary);
   }
   
-  .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(3) stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:focus-visible .partners__icon linearGradient:nth-child(3) stop:nth-child(2) {
     stop-color: var(--color-primary-lighter);
   }
 
   /* ---hover--- */
-  .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(1) stop:nth-child(1) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(1) stop:nth-child(1) {
     stop-color: var(--color-primary);
   }
 
-  .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(1) stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(1) stop:nth-child(2) {
     stop-color: var(--color-primary-lighter);
   }
 
-  .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(2) stop:nth-child(1) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(2) stop:nth-child(1) {
     stop-color: var(--color-primary);
   }
 
-  .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(2) stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(2) stop:nth-child(2) {
     stop-color: var(--color-primary-lighter);
   }
 
-  .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(3) stop:nth-child(1) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(3) stop:nth-child(1) {
     stop-color: var(--color-primary);
   }
 
-  .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(3) stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:hover .partners__icon linearGradient:nth-child(3) stop:nth-child(2) {
     stop-color: var(--color-primary-lighter);
   }
 
   /* ---active--- */
-  .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(1) stop:nth-child(1) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(1) stop:nth-child(1) {
     stop-color: var(--color-primary-darker);
   }
 
-  .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(1) stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(1) stop:nth-child(2) {
     stop-color: var(--color-primary-darker);
   }
 
-  .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(2) stop:nth-child(1) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(2) stop:nth-child(1) {
     stop-color: var(--color-primary-darker);
   }
 
-  .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(2) stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(2) stop:nth-child(2) {
     stop-color: var(--color-primary-darker);
   }
 
-  .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(3) stop:nth-child(1) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(3) stop:nth-child(1) {
     stop-color: var(--color-primary-darker);
   }
 
-  .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(3) stop:nth-child(2) {
+  .partners__list:nth-child(1) .partners__item:nth-child(2) .partners__link:active .partners__icon linearGradient:nth-child(3) stop:nth-child(2) {
     stop-color: var(--color-primary-darker);
   }
 
 /* -----3----- */
   /* ---focus--- */
-  .partners__item:nth-child(3) .partners__link:focus-visible .partners__icon path:not(:first-child):not(:last-child) {
+  .partners__list:nth-child(1) .partners__item:nth-child(3) .partners__link:focus-visible .partners__icon path:not(:first-child):not(:last-child) {
     fill: var(--color-primary-lighter);
   }
 
   /* ---hover--- */
-  .partners__item:nth-child(3) .partners__link:hover .partners__icon path:not(:first-child):not(:last-child) {
+  .partners__list:nth-child(1) .partners__item:nth-child(3) .partners__link:hover .partners__icon path:not(:first-child):not(:last-child) {
     fill: var(--color-primary-lighter);
   }
 
   /* ---active--- */
-  .partners__item:nth-child(3) .partners__link:active .partners__icon path:not(:first-child):not(:last-child) {
+  .partners__list:nth-child(1) .partners__item:nth-child(3) .partners__link:active .partners__icon path:not(:first-child):not(:last-child) {
     fill: var(--color-primary-darker);
   }
 
@@ -185,7 +185,12 @@
     fill: var(--color-primary-darker);
   }
 
-  /* ---- Footer ----- */
+  /* ----- Gallery ----- */
+  .gallery__img:hover {
+    transform: scale(1.1);
+  }
+
+  /* ----- Footer ----- */
   .socials__link:focus-visible .socials__icon {
     fill: var(--color-primary-lighter);
   }
@@ -268,6 +273,10 @@
 
   .btn-default:hover {
     background-color: var(--color-primary);
+  }
+
+  .gallery__img:hover {
+    transform: none;
   }
 
   .nav__link:hover,

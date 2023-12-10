@@ -11,6 +11,10 @@
   --color-light-bg: #fff;
   --color-light-border: #DEDEDE;
   --color-dark-bg: #181818;
+  --color-box-shadow: rgba(24, 24, 24, .8);
+  
+  /* Gradients */
+  --gradient-app-store: rgba(23, 201, 251, 1), rgba(26, 116, 232, 1);
 
   /* Gaps */
   --section-gap: 6.25rem;               /*  100px  */
