@@ -1,4 +1,4 @@
-# Спринт-проект Slat
+# Спринт-проект Slate
 
 https://truelivesey.github.io/Slate/
 
